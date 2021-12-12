@@ -53,18 +53,19 @@
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .menu-title:hover { 
-  top: 40%;
+  transition: .1s ease-in-out;
+  top: 32%;
 }
 
 .menu-subtitle {
   color: black;
   width: 100%;
   position: absolute;
-  padding: 0 15px;
-  top: 72%;
+  top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -95,6 +96,26 @@ footer {
   height: 100px;
   font-weight: 300;
   font-size: x-large;
+}
+
+#Menu-item-menu:hover {
+  background: tomato;
+}
+
+#Menu-item-news:hover {
+  background: skyblue;
+}
+
+#Menu-item-about:hover {
+  background: white;
+}
+
+#Menu-item-contact:hover {
+  background: limegreen;
+}
+
+#Menu-item-cart:hover {
+  background: gold;
 }
 
 #video-background {
